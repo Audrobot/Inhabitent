@@ -1,9 +1,5 @@
 <?php
-/**
- * The main template file.
- *
- * @package RED_Starter_Theme
- */
+/* Template Name: About  */
 
 get_header(); ?>
 

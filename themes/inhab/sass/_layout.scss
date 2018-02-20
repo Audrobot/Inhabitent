@@ -1,0 +1,31 @@
+.site {
+  display: flex;
+  flex-direction: column;
+  // maybe remove this later
+  min-height: 100vh;
+}
+
+.site-header {
+  background: skyblue;
+  padding: 1rem;
+}
+
+.site-content {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.content-area {
+  flex: 1 1 75%;
+}
+
+.widget-area {
+  flex: 1 1 25%;
+}
+
+.site-footer {
+  background: slategrey;
+  padding: 10rem;
+  background: url('../../images/dark-wood.png');
+}

@@ -34,6 +34,26 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</main><!-- #main -->
+
+	</div>
+
+	<h1> Latest Adventures </h1>
+	<div class="adventures">
+		<div class="adventure-1"><a class="pic-link" 
+		href="#"> Getting Back to Nature in a Canoe</a><a href="#" class="button">Read More</a></div>
+		<div class="adventure-2"><a class="pic-link" 
+		href="#">A Night With Friends at the Beach</a><a href="#" class="button">Read More</a></div>
+		<div class="adventure-3"><a class="pic-link" 
+		href="#">Taking in the View at Big Mountain</a><a href="#" class="button">Read More</a></div>
+		<div class="adventure-4"><a class="pic-link" 
+		href="#">Star-Gazing at the Night Sky</a><a href="#" class="button">Read More</a></div>
+	</div>
+
+
+
+
+
+
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
