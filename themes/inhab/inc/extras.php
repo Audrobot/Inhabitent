@@ -50,12 +50,11 @@ function about_hero_image() {
 	}
 	
 	$custom_css = "
-					.site-header {
+					.page-template-about .site-header {
 							background: 
 							linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 10%),
 							url({$img});
-							height: 50vh;
-							background size: cover, cover;
+							background-size: cover, cover;
 				}
 	";
 	wp_add_inline_style('inhabitent', $custom_css);
