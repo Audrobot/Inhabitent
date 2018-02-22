@@ -20,7 +20,7 @@
                     <p><span class="fa fa-envelope" aria-hidden="true"></span>info@inhabitent.com</p>
                     <p><span class="fa fa-phone" aria-hidden="true"></span>778-456-7891</p>
                     <p><span class="fab fa-facebook-square" aria-hidden="true"></span>
-										<span class="fab fa-twitter-square" aria-hidden="true"></span>
+				    <span class="fab fa-twitter-square" aria-hidden="true"></span>
                     <span class="fab fa-google-plus-square" aria-hidden="true"></span></p>
                 </div>
                 <div class="business-hours">

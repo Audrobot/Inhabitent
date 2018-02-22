@@ -38,3 +38,26 @@ function inhabitent_login_title() {
 	return 'Inhabitent';
 }
 add_filter('login_headertitle', 'inhabitent_login_title');
+
+function about_hero_image() {
+	if( !is_page_template('page-templates/about.php') ) {
+		return;
+	}
+	
+	$img = CFS()->get( 'image' );
+	if ( ! $img) {
+		return;
+	}
+	
+	$custom_css = "
+					.site-header {
+							background: 
+							linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 10%),
+							url({$img});
+							height: 50vh;
+							background size: cover, cover;
+				}
+	";
+	wp_add_inline_style('inhabitent', $custom_css);
+}
+add_action('wp_enqueue_scripts', 'about_hero_image');

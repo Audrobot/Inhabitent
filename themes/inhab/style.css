@@ -676,6 +676,9 @@ a {
   a:visited {
     color: #248a83; }
 
+.shop-logo {
+  width: 10%; }
+
 .site {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -687,8 +690,24 @@ a {
   min-height: 100vh; }
 
 .site-header {
-  background: skyblue;
-  padding: 1rem; }
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: .5px solid #a1a1a1;
+  position: fixed;
+  background-color: rgba(250, 250, 250, 0.9);
+  z-index: 1; }
 
 .site-content {
   display: -webkit-box;
@@ -710,7 +729,73 @@ a {
           flex: 1 1 25%; }
 
 .site-footer {
-  background: slategrey;
-  padding: 10rem;
   background: url("../../images/dark-wood.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px 60px;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contact-info {
+  padding: 35px;
+  padding-bottom: 15px; }
+
+.business-hours {
+  padding: 35px;
+  padding-bottom: 65px; }
+
+.footer-image {
+  width: 280px;
+  height: 75px; }
+
+.copyright-container {
+  height: 20px;
+  padding-top: 17rem; }
+
+.products-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.product-type-blocks {
+  width: 20%; }
+
+.product-type-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }

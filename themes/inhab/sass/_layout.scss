@@ -1,3 +1,13 @@
+//**  front page  **//
+
+// .front-header {
+
+// }
+
+.shop-logo {
+  width: 10%;
+}
+
 .site {
   display: flex;
   flex-direction: column;
@@ -6,8 +16,17 @@
 }
 
 .site-header {
-  background: skyblue;
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: .5px solid #a1a1a1;
+  position: fixed;
+  background-color: rgba(250,250,250,0.9);
+  z-index: 1;
 }
 
 .site-content {
@@ -25,8 +44,59 @@
 }
 
 .site-footer {
-  background: slategrey;
-  padding: 10rem;
   background: url('../../images/dark-wood.png');
+  // margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0px 60px;
+  // padding-right: 60px;
+  height: 350px;
+  align-items: center;
   color: white;
+}
+ 
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.contact-info {
+  padding: 35px;
+  padding-bottom: 15px;
+}
+
+.business-hours {
+  padding: 35px;
+  padding-bottom: 65px;
+}
+
+.footer-image {
+  width: 280px;
+  height: 75px;
+}
+
+.copyright-container {
+  height: 20px;
+  padding-top: 17rem;
+}
+
+//**  products **//
+
+.products-wrapper {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+}
+
+.product-type-blocks {
+  width: 20%;
+}
+
+.product-type-wrapper {
+  display: flex;
+  flex-direction: row;
 }
