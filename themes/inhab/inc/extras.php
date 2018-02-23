@@ -48,7 +48,7 @@ function about_page_image() {
 		return;
 	}
 	$img = CFS()->get( 'image' ); 
-	
+
 	if (!$img) {
 		return;
 	}
