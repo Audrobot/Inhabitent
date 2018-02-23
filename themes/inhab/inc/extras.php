@@ -39,28 +39,32 @@ function inhabitent_login_title() {
 }
 add_filter('login_headertitle', 'inhabitent_login_title');
 
-function about_hero_image() {
-	if( !is_page_template('page-templates/about.php') ) {
+
+
+
+
+function about_page_image() {
+	if( !is_page_template('page-templates/about.php')){
 		return;
 	}
+	$img = CFS()->get( 'image' ); 
 	
-	$img = CFS()->get( 'image' );
-	if ( ! $img) {
+	if (!$img) {
 		return;
 	}
+	$custom_css = ".page-template-about .entry-header {
+					background: 
+					linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%),
+					url({$img}) no-repeat center bottom; 
+					background-size:cover, cover;
+					height:100vh;
+			}";
+wp_add_inline_style( 'inhabitent', $custom_css );
+} 
+add_action( 'wp_enqueue_scripts', 'about_page_image' );
+
+
 	
-	$custom_css = "
-					.page-template-about {
-							.about-hero {
-								background-image: url({$img});
-								width: 100vh;
-							
-							background-size: cover, cover;}
-				}
-	";
-	wp_add_inline_style('inhabitent', $custom_css);
-}
-add_action('wp_enqueue_scripts', 'about_hero_image');
 
 
 function inhab_archives($query){

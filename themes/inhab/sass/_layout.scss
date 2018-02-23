@@ -222,11 +222,34 @@
 
 .products-wrapper {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 1120px;
+  margin: 10px 25px;
+  border-top: 1px grey dashed;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
   .shop-item {
     flex: 1 1 25%;
     padding: 10px 10px;
+    width: 260px;
+    height: 310px;
+    border: 1px grey solid;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
   }
-}
+
+  .page-header {
+    .page-title {
+      display: flex;
+      justify-content:center;
+    }
+  }
