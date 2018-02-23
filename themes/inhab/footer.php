@@ -9,12 +9,9 @@
 
 			</div><!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
-					</div>
+		<footer id="colophon" class="site-footer" role="contentinfo">
 				
-					  <div class="footer">
+		    <div class="site-info">
                 <div class="contact-info">
                     <h3>CONTACT INFO</h3>
                     <p><span class="fa fa-envelope" aria-hidden="true"></span>info@inhabitent.com</p>
@@ -34,8 +31,10 @@
                         <img src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-text.svg" ?> alt="">
                     </a>
                 </div>
+            </div><!--end of site info-->
                 <div class="copyright-container">
-					<div class="copyright">Copyright © 2017 inhabitent</div>
+                    <div class="copyright">Copyright © 2017 inhabitent</div>
+                    
 
 		<?php wp_footer(); ?>
 

@@ -676,9 +676,6 @@ a {
   a:visited {
     color: #248a83; }
 
-.shop-logo {
-  width: 10%; }
-
 .site {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -688,26 +685,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh; }
-
-.site-header {
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: .5px solid #a1a1a1;
-  position: fixed;
-  background-color: rgba(250, 250, 250, 0.9);
-  z-index: 1; }
 
 .site-content {
   display: -webkit-box;
@@ -728,6 +705,164 @@ a {
       -ms-flex: 1 1 25%;
           flex: 1 1 25%; }
 
+.site-header {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: .5px solid #a1a1a1;
+  background-color: rgba(250, 250, 250, 0.9);
+  z-index: 1;
+  position: fixed; }
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.menu-item a {
+  margin: 0 10px; }
+
+#menu-item-134 {
+  margin-right: 50rem; }
+
+#menu-item-61 {
+  margin-right: 3rem; }
+
+.front-header {
+  background: url(../../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-template-about .about-hero-image {
+  width: 100vh;
+  height: 100vh; }
+
+.product-type-blocks {
+  width: 250px;
+  border: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  line-height: 35px; }
+
+.product-type-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product-info-container {
+  margin-top: 100px; }
+
+.product-info-container h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.shop-logo {
+  width: 35%; }
+
+.journal-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.journal-entry {
+  margin: 0 13px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: black; }
+
+.entry-title {
+  font-size: 27px; }
+
+.home-journal {
+  margin-top: 100px; }
+
+.home-journal h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.adventures {
+  margin-top: 100px; }
+
+.adventures h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .site-footer {
   background: url("../../images/dark-wood.png");
   display: -webkit-box;
@@ -746,38 +881,31 @@ a {
           align-items: center;
   color: white; }
 
-.footer {
+.site-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  width: 1120px; }
 
 .contact-info {
-  padding: 35px;
-  padding-bottom: 15px; }
+  width: 25%; }
 
 .business-hours {
-  padding: 35px;
-  padding-bottom: 65px; }
+  width: 25%; }
 
 .footer-image {
-  width: 280px;
-  height: 75px; }
+  width: 50%;
+  text-align: right; }
+  .footer-image img {
+    width: 55%;
+    margin-top: 1rem; }
 
 .copyright-container {
-  height: 20px;
-  padding-top: 17rem; }
+  width: 1120px;
+  text-align: center; }
 
 .products-wrapper {
   display: -webkit-box;
@@ -785,17 +913,13 @@ a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-
-.product-type-blocks {
-  width: 20%; }
-
-.product-type-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .products-wrapper .shop-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+    padding: 10px 10px; }
