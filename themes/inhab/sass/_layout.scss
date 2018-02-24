@@ -20,6 +20,13 @@
   flex-grow: 1;
 }
 
+.site-main {
+  .product-type-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 .content-area {
   flex: 1 1 75%;
 }
@@ -91,9 +98,14 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #e1e1e1;
+  border-top-width: 6px;
   align-items: center;
-  padding: 0 35px;
+  padding: 0 5px;
   line-height: 30px;
+  
+  &:hover {
+    border-color: #d99054;
+  }
 }
 
 .product-type-blocks {
@@ -103,7 +115,27 @@
     font-size: 1rem;
     line-height: 2;
     text-align: center;
-    width: 222px;
+    width: 235px;
+    margin-top: 13px;
+  }
+}
+
+.product-type-blocks {
+  .btn {
+    background: #248a83;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans;
+    line-height: 1;
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1rem;
+
+    &:hover {
+      background-color: darken(#248A83, 10%);
+    }
   }
 }
 
@@ -113,6 +145,7 @@
   justify-content: space-around;
   justify-content:center;
   align-items:center;
+  margin: 0 50px;
 }
 
 .product-info-container {
@@ -133,7 +166,9 @@
 }
 
 .shop-logo {
-  width: 35%;
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
 }
 
 
@@ -151,16 +186,37 @@
 .journal-entry {
   margin: 0 13px;
   width: 350px;
+  // height: 460px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: black;
+  border: 1px solid #e1e1e1;
+  // border-top: none;
+  flex: 0 1 32%;
+  position: relative;
 }
+
+.attachment-large {
+    border: 0 solid #e1e1e1;
+    border-bottom-width: 6px;
+  }  
+
 
 .journal-entry {
   .entry-title {
     font-size: 27px;
     font-family: 'Novecento Sans';
+    line-height: 1.15;
+  }
+}
+
+.journal-entry {
+  .entry-meta {
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Merriweather;
+    color: #404040;
+    margin-left: 19px;
   }
 }
 
@@ -181,7 +237,30 @@
   }
 }
 
+.home-journal {
+  h2 {
+    margin-top: 0;
+    margin-left: 19px;
+    font-weight: 550;
+  } 
+}  
 
+.read-button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 15px;
+  padding: 10px 28px;
+  font-size: 14px;
+  width: 150px;
+
+  &:hover {
+    background-color: #248A83;
+    border: none;
+    color: white;
+  }
+}
 
 
 //**  LATEST ADVENTURES  **//
@@ -227,7 +306,7 @@
 .contact-info {
   width: 25%;
   font-family: 'Novecento Sans';
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .contact-info {
@@ -245,7 +324,7 @@
 .business-hours {
   width: 25%;
   font-family: 'Novecento Sans';
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .business-hours {
@@ -266,7 +345,7 @@
 
   img {
     width: 55%;
-    margin-top: 35px;
+    margin-top: 40px;
   }
 }
 
@@ -303,7 +382,6 @@
     width: 260px;
     height: 310px;
     border: 1px grey solid;
-    overflow: hidden;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;

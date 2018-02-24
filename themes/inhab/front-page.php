@@ -88,11 +88,11 @@ get_header(); ?>
         <?php endif; ?>
 
         <div class="entry-meta">
-          <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+          <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> 
         </div><!-- .entry-meta -->
 
          <?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
+         <a class="read-button" href="<?php the_permalink(); ?>">Read Entry</a>
         </article>
       <?php endforeach; wp_reset_postdata(); ?>
 
