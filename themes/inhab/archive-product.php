@@ -9,9 +9,15 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
 					
 			<section class="product-info-container">
+
+				<header class="page-header">
+				<?php
+					the_archive_title( '<h1 class="page-title">', '</h1>' );
+				?>
+				</header><!-- .page-header -->
+
 				<?php
 				$terms = get_terms ( array(
 					'taxonomy' => 'product_type',
@@ -43,12 +49,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-				
-				?>
-			</header><!-- .page-header -->
+			
 
 			<?php /* Start the Loop */ ?>
 			<div class="products-wrapper">
