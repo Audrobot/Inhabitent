@@ -74,6 +74,7 @@
 }
 
 .widget-area {
+  width: 30px;
   padding-left: 50px;
   padding-top: 75px;
   border-left: 1px solid #e1e1e1;
@@ -124,7 +125,7 @@ input, textarea {
     box-shadow: none;
     color: #fff;
     cursor: pointer;
-    font-family: Novecento Sans;
+    font-family: 'Novecento Sans';
     font-size: 15px;
     line-height: 1.75;
     letter-spacing: 1.75px;
@@ -139,10 +140,12 @@ input, textarea {
 }
 
 .form-label {
-  font-size: 12pt;
+  font-family: 'Novecento Sans';
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .form-asterisk {
-  color: orange;
-  font-size: 8pt;
+  color: #d99054;
+  font-size: 20px;
 }
