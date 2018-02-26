@@ -934,11 +934,29 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 1120px; }
+  width: 1120px;
+  margin: auto; }
+  .adventure-box button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0%;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 28px;
+    font-size: 14px;
+    width: 150px; }
+    .adventure-box button:hover {
+      background-color: #248A83;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border: none;
+      color: white; }
 
 .adventure-box-1 {
   display: -webkit-box;
@@ -954,76 +972,86 @@ a {
 
 .adventure-1 {
   background: url("../../images/adventure-photos/canoe-girl.jpg");
+  background-size: cover;
   width: 540px;
   height: 540px; }
+  .adventure-1 p {
+    font-family: Merriweather;
+    color: white;
+    font-size: 50px; }
 
 .adventure-2 {
   background: url("../../images/adventure-photos/beach-bonfire.jpg");
+  background-size: cover;
   width: 560px;
   height: 250px;
   margin-bottom: 20px; }
+  .adventure-2 p {
+    font-family: Merriweather;
+    color: white;
+    font-size: 38px; }
 
 .adventure-3 {
   background: url("../../images/adventure-photos/mountain-hikers.jpg");
+  background-size: cover;
   width: 270px;
   height: 270px; }
+  .adventure-3 p {
+    font-family: Merriweather;
+    color: white;
+    font-size: 30px; }
 
 .adventure-4 {
   background: url("../../images/adventure-photos/night-sky.jpg");
+  background-size: cover;
   width: 270px;
   height: 270px;
   margin-left: 20px; }
+  .adventure-4 p {
+    font-family: Merriweather;
+    color: white;
+    font-size: 30px; }
 
-.post .entry-header {
-  position: relative;
-  margin-top: 80px;
-  width: 750px;
-  color: white; }
-  .post .entry-header .attachment-large {
-    border: none;
-    width: 100%; }
-  .post .entry-header h2 {
-    font-family: 'Novecento Sans';
-    letter-spacing: 1.75px;
-    font-weight: bold; }
-  .post .entry-header .entry-title {
-    position: absolute;
-    top: 0px;
-    line-height: 1.15;
-    background-color: #248a83;
-    padding: 10px 20px;
-    max-width: 600px;
-    font-size: 38px; }
-    .post .entry-header .entry-title a {
-      color: white; }
-      .post .entry-header .entry-title a:hover {
-        color: #f0e4d1; }
-  .post .entry-header .entry-meta {
-    position: absolute;
-    bottom: 7px;
-    right: 0;
-    padding: 5px 10px;
-    background-color: #248a83;
-    font-family: 'Novecento Sans';
-    text-transform: uppercase; }
-
-.post .entry-content p {
-  width: 750px;
-  font-family: Merriweather;
-  color: #404040;
-  line-height: 1.75; }
-
-a.journal-button {
-  color: black;
-  padding: 10px 20px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-  font-family: 'Novecento Sans';
-  text-transform: uppercase; }
-  a.journal-button:hover {
-    background-color: #248a83;
-    border-color: #248a83;
+.post {
+  padding-left: 120px; }
+  .post .entry-header {
+    position: relative;
+    margin-top: 80px;
+    margin-right: 0;
+    width: 750px;
     color: white; }
+    .post .entry-header .attachment-large {
+      border: none;
+      width: 100%; }
+    .post .entry-header h2 {
+      font-family: 'Novecento Sans';
+      letter-spacing: 1.75px;
+      font-weight: bold; }
+    .post .entry-header .entry-title {
+      position: absolute;
+      top: 0px;
+      line-height: 1.15;
+      background-color: #248a83;
+      padding: 10px 20px;
+      max-width: 600px;
+      font-size: 38px; }
+      .post .entry-header .entry-title a {
+        color: white; }
+        .post .entry-header .entry-title a:hover {
+          color: #f0e4d1; }
+    .post .entry-header .entry-meta {
+      position: absolute;
+      bottom: 7px;
+      right: 0;
+      padding: 5px 10px;
+      background-color: #248a83;
+      font-family: 'Novecento Sans';
+      text-transform: uppercase; }
+  .post .entry-content p {
+    width: 750px;
+    font-family: Merriweather;
+    color: #404040;
+    line-height: 1.75; }
 
 .gm-style {
   width: 830px; }
@@ -1072,6 +1100,7 @@ a.journal-button {
   margin-right: 10px; }
 
 .widget-area {
+  width: 30px;
   padding-left: 50px;
   padding-top: 75px;
   border-left: 1px solid #e1e1e1; }
@@ -1092,9 +1121,6 @@ a.journal-button {
     padding-left: 0;
     list-style-type: none; }
 
-a {
-  color: #248A83; }
-
 input, textarea {
   margin-top: 10px;
   background-color: #f4f4f4;
@@ -1109,7 +1135,7 @@ input, textarea {
           box-shadow: none;
   color: #fff;
   cursor: pointer;
-  font-family: Novecento Sans;
+  font-family: 'Novecento Sans';
   font-size: 15px;
   line-height: 1.75;
   letter-spacing: 1.75px;
@@ -1121,11 +1147,13 @@ input, textarea {
             box-shadow: none; }
 
 .form-label {
-  font-size: 12pt; }
+  font-family: 'Novecento Sans';
+  font-size: 18px;
+  text-transform: uppercase; }
 
 .form-asterisk {
-  color: orange;
-  font-size: 8pt; }
+  color: #d99054;
+  font-size: 20px; }
 
 .shop-header {
   display: -webkit-box;
@@ -1140,7 +1168,10 @@ input, textarea {
           align-items: center; }
 
 .shop-header-title {
-  text-transform: uppercase; }
+  font-family: 'Novecento Sans';
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
 
 .product-type-links {
   display: -webkit-box;
@@ -1149,7 +1180,9 @@ input, textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 400px;
+  width: 350px;
+  font-family: 'Novecento Sans';
+  font-size: 20px;
   text-transform: uppercase; }
 
 .products-wrapper {
@@ -1183,14 +1216,6 @@ input, textarea {
     max-width: 100%;
     right: 22px;
     border-bottom: 5px solid #e1e1e1; }
-  .shop-item .entry-title {
-    margin: 0;
-    text-align: left;
-    font-family: Merriweather;
-    font-size: 16px;
-    color: #404040;
-    font-size: 16px;
-    color: #404040; }
 
 .shop-item-text {
   display: -webkit-box;
@@ -1198,7 +1223,10 @@ input, textarea {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  font-family: Merriweather;
+  font-size: 16px;
+  color: #404040; }
 
 .shop-item-ellipses {
   position: relative;
@@ -1210,6 +1238,11 @@ input, textarea {
   height: 20px;
   -ms-flex-item-align: top;
       align-self: top; }
+
+#post-2 .entry-header {
+  height: 800px;
+  position: relative;
+  top: -32px; }
 
 .page-template-about .entry-content {
   margin: 0 auto;
