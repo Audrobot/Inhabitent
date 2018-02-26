@@ -30,10 +30,7 @@
 }
 
 .shop-item {
-  display: flex;
-  justify-content: space-around;
-  flex: 1 1 25%;
-  padding: 10px 10px;
+  padding: 0;
   width: 260px;
   height: 310px;
   border: 1px solid #e1e1e1;
@@ -49,7 +46,6 @@
   .entry-title {
     margin: 0;
     text-align: left;
-    // display: inline-block;
     font-family: Merriweather;
     font-size: 16px;
     color: #404040;
@@ -58,3 +54,17 @@
     color: #404040;
   }
 }
+
+.shop-item-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-item-ellipses {
+  position: relative;
+  top: -2px;
+  flex: 0.95;
+  border-bottom: dotted 2px #404040;
+  height: 20px;
+  align-self: top;
+};
