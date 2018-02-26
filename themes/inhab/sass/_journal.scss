@@ -1,72 +1,75 @@
 .post {
-  .entry-header {
-    position: relative;
-    margin-top: 80px;
-    width: 750px;
-    color: white;
+  padding-left: 120px;
+    
+    .entry-header {
+      position: relative;
+      margin-top: 80px;
+      margin-right: 0;
+      width: 750px;
+      color: white;
 
-    .attachment-large {
-      border: none;
-      width: 100%;
-    }
+      .attachment-large {
+        border: none;
+        width: 100%;
+      }
 
-    h2 {
-      font-family: 'Novecento Sans';
-      letter-spacing: 1.75px;
-      font-weight: bold;
-    } 
+      h2 {
+        font-family: 'Novecento Sans';
+        letter-spacing: 1.75px;
+        font-weight: bold;
+      } 
 
-    .entry-title {
-      position: absolute;
-      top: 0px;
-      line-height: 1.15;
-      background-color: #248a83;
-      padding: 10px 20px;
-      max-width: 600px;
-      font-size: 38px;
-      
-      a {
-        color: white;
+      .entry-title {
+        position: absolute;
+        top: 0px;
+        line-height: 1.15;
+        background-color: #248a83;
+        padding: 10px 20px;
+        max-width: 600px;
+        font-size: 38px;
+        
+        a {
+          color: white;
 
-        &:hover {
-          color: #f0e4d1;
+          &:hover {
+            color: #f0e4d1;
+          }
         }
       }
-    }
 
-    .entry-meta {
-      position: absolute;
-      bottom: 7px;
-      right: 0;
-      padding: 5px 10px;
-      background-color: #248a83;
-      font-family: 'Novecento Sans';
-      text-transform: uppercase;
+      .entry-meta {
+        position: absolute;
+        bottom: 7px;
+        right: 0;
+        padding: 5px 10px;
+        background-color: #248a83;
+        font-family: 'Novecento Sans';
+        text-transform: uppercase;
+      }
     }
-  }
-  .entry-content {
-    p {
-      width: 750px;
-      font-family: Merriweather;
-      color: #404040;
-      line-height: 1.75;
+    .entry-content {
+      p {
+        width: 750px;
+        font-family: Merriweather;
+        color: #404040;
+        line-height: 1.75;
+      }
+    } 
     }
-  } 
-}
   
 
-a.journal-button {
-  color: black;
-  padding: 10px 20px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-  font-family: 'Novecento Sans';
-  text-transform: uppercase;
+// a.journal-button {
+//   color: black;
+//   padding: 10px 20px;
+//   border: 1px solid black;
+//   margin-bottom: 20px;
+//   font-family: 'Novecento Sans';
+//   text-transform: uppercase;
 
-  &:hover {
-    background-color: #248a83;;
-    border-color: #248a83;
-    color: white;
-  }
-}
+//   &:hover {
+//     background-color: #248a83;;
+//     border-color: #248a83;
+//     color: white;
+//   }
+// }
   
