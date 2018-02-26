@@ -1,0 +1,148 @@
+//**   FIND US   **//
+
+.gm-style {
+  width: 830px;
+}
+
+#post-40 {
+  margin-left: 65px;
+  padding-top: 50px;
+
+  .entry-content {
+    width: 830px;
+  }
+
+  .entry-title {
+    font-family: 'Novecento Sans';
+    font-size: 38px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-family: 'Novecento Sans';
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    // margin-top: 0;
+  }
+
+  p {
+    font-family: Merriweather;
+    font-size: 16px;
+    line-height: 1.85;
+  }
+}
+
+.widget-title {
+  a {
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight:400;
+    letter-spacing: 1px;
+  }
+}
+
+#text-2 {
+  .widget-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+} 
+
+#business_hours_widget-2 {
+  .widget-title {
+    margin-top: 65px;
+    margin-bottom: 20px;
+  }
+} 
+
+#archives-2 {
+  .widget-title {
+    margin-top: 65px;
+    margin-bottom: 20px;
+  }
+} 
+
+.textwidget {
+  .svg-inline--fa {
+    margin-right: 10px;
+  }
+
+  .fa-envelope {
+    margin-right: 10px;
+  }
+}
+
+.widget-area {
+  padding-left: 50px;
+  padding-top: 75px;
+  border-left: 1px solid #e1e1e1;
+
+  
+  h2 {
+    font-size: 25px;
+    font-family: 'Novecento Sans';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .widget p {
+    font-family: Merriweather;
+    line-height: 1.25;
+    
+    .day-of-week {
+      font-size: 15px;
+      font-family: Merriweather;
+    }
+  }
+
+  ul {
+    font-family: Merriweather;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+}
+  
+a {
+  color: #248A83;
+  
+}
+
+input, textarea {
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  border-radius: 0;
+  border-color: 1px solid #e1e1e1;
+}
+
+.wpcf7 {
+  .wpcf7-submit {
+    background: #248a83;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans;
+    font-size: 15px;
+    line-height: 1.75;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-shadow: none;
+    
+    &:hover {
+      background-color: darken(#248A83, 10%);
+      box-shadow: none;
+    }
+  } 
+}
+
+.form-label {
+  font-size: 12pt;
+}
+
+.form-asterisk {
+  color: orange;
+  font-size: 8pt;
+}

@@ -1,6 +1,36 @@
 .page-template-about {
-  .about-hero-image {
-    width: 100vh;
-    height: 100vh;
+
+  .entry-content {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 800px;
+    
+    p {
+      font-family: Merriweather;
+      font-size: 16px;
+      line-height: 1.85;
+    }
+  }
+
+  h1 {
+    font-family: "Novecento Sans";
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 280px;
+  }
+
+  h2 {
+    color: black;
+    font-family: 'Novecento Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50px;
   }
 }

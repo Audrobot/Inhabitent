@@ -1,0 +1,221 @@
+//** SHOP STUFFS **//
+
+.product-type-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content:center;
+  align-items:center;
+  margin: 0 50px;
+
+  .product-type-blocks {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e1e1e1;
+    border-top-width: 6px;
+    align-items: center;
+    padding: 0 5px;
+    line-height: 30px;
+
+    &:hover {
+      border-color: #d99054;
+    }
+
+    p {
+      font-family: Merriweather;
+      color: #404040;
+      font-size: 1rem;
+      line-height: 2;
+      text-align: center;
+      width: 235px;
+      margin-top: 13px;
+    }
+
+    .btn {
+      background: #248a83;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-family: Novecento Sans;
+      line-height: 1;
+      padding: .7rem 1rem;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: darken(#248A83, 10%);
+      }
+    }
+  } 
+}
+
+.product-info-container {
+  margin-top: 100px;
+}
+
+.product-info-container {
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Novecento Sans';
+    font-size: 39px;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .shop-item {
+    padding: 0;
+  }
+}
+
+.shop-logo {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+
+//**  INHABITENT JOURNAL  **//
+
+.journal-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content:center;
+  align-items:center;
+}
+
+.journal-entry {
+  margin: 0 13px;
+  width: 350px;
+  // height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  // border-top: none;
+  flex: 0 1 32%;
+  position: relative;
+
+  .entry-title {
+    font-size: 27px;
+    font-family: 'Novecento Sans';
+    line-height: 1.15;
+  }
+
+  .entry-meta {
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Merriweather;
+    color: #404040;
+    margin-left: 19px;
+  }
+}
+
+.attachment-large {
+    border: 0 solid #e1e1e1;
+    border-bottom-width: 6px;
+  }  
+
+
+.home-journal {
+  margin-top: 100px;
+
+  h1 {
+    display: flex;
+    justify-content:center;
+    font-family: 'Novecento Sans';
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-left: 19px;
+    font-weight: 550;
+  }
+}
+ 
+
+.read-button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 15px;
+  padding: 10px 28px;
+  font-size: 14px;
+  width: 150px;
+
+  &:hover {
+    background-color: #248A83;
+    border: none;
+    color: white;
+  }
+}
+
+// Adventures
+
+.adventures {
+  margin-top: 100px;
+}
+
+.adventures {
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Novecento Sans';
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+.adventure-box {
+  display: flex;
+  flex-direction: row;
+  width: 1120px;
+}
+
+.adventure-box-1 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 560px;
+  height: 540px;
+  margin-left: 20px;
+}
+
+.adventure-1 {
+  background: url('../../images/adventure-photos/canoe-girl.jpg');
+  width: 540px;
+  height: 540px;
+}
+
+.adventure-2 {
+  background: url('../../images/adventure-photos/beach-bonfire.jpg');
+  width: 560px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.adventure-3 {
+  background: url('../../images/adventure-photos/mountain-hikers.jpg');
+  width: 270px;
+  height: 270px;
+}
+
+.adventure-4 {
+  background: url('../../images/adventure-photos/night-sky.jpg');
+  width: 270px;
+  height: 270px;
+  margin-left: 20px;
+}

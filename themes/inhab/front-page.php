@@ -13,7 +13,6 @@ get_header(); ?>
     <img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'; ?>" class="full-logo" alt="Logo" />
   </div>
 
-
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -100,22 +99,38 @@ get_header(); ?>
       <?php
     endif;
 ?>
-  
   </section>
 
-	<div class="adventures">
-  <h1> Latest Adventures </h1>
-		<div class="adventure-1"><a class="pic-link" 
-		href="#"> Getting Back to Nature in a Canoe</a><a href="#" class="button">Read More</a></div>
-		<div class="adventure-2"><a class="pic-link" 
-		href="#">A Night With Friends at the Beach</a><a href="#" class="button">Read More</a></div>
-		<div class="adventure-3"><a class="pic-link" 
-		href="#">Taking in the View at Big Mountain</a><a href="#" class="button">Read More</a></div>
-		<div class="adventure-4"><a class="pic-link" 
-		href="#">Star-Gazing at the Night Sky</a><a href="#" class="button">Read More</a></div>
-	</div>
-    </div>
-  </div>
+
+  <section>
+    <div class="adventures">
+      <h1> Latest Adventures</h1>
+      
+      <div class="adventure-box">
+        <div class="adventure-1">
+          <p>Getting Back to Nature in a Canoe</p>
+          <button type="submit">Read More</button>
+        </div>
+          
+        <div class="adventure-box-1">
+          <div class="adventure-2">
+            <p>A Night With Friends at the Beach</p>
+            <button type="submit">Read More</button>
+          </div>
+          
+          <div class="adventure-3">
+            <p>Taking in the View at Big Mountain</p>
+            <button type="submit">Read More</button>
+          </div>
+          
+          <div class="adventure-4">
+            <p>Star-Gazing at the Night Sky</p>
+            <button type="submit">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>  
 
 </main><!-- #main -->
 

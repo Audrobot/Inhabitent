@@ -273,7 +273,7 @@ th {
   font-style: italic; }
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Merriweather Bold';
   src: url("../../fonts/Merriweather-Bold.eot");
   src: url("../../fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Bold.woff2") format("woff2"), url("../../fonts/Merriweather-Bold.woff") format("woff"), url("../../fonts/Merriweather-Bold.ttf") format("truetype"), url("../../fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
   font-weight: bold;
@@ -747,140 +747,6 @@ a {
   a:visited {
     color: #248a83; }
 
-.site {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100vh; }
-
-.site-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  padding-top: 55px; }
-
-.site-main .product-type-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-
-.content-area {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 75%;
-          flex: 1 1 75%; }
-
-.widget-area {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%; }
-
-.site-header {
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #e1e1e1;
-  background-color: rgba(250, 250, 250, 0.9);
-  z-index: 1;
-  position: fixed; }
-
-.main-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-
-.menu-item a {
-  margin: 0 10px; }
-
-#menu-item-134 {
-  margin-right: 40rem; }
-
-#menu-item-153 {
-  margin-right: 1rem; }
-
-.front-header {
-  background: url(../../images/home-hero.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.page-template-about .about-hero-image {
-  width: 100vh;
-  height: 100vh; }
-
-.product-type-blocks {
-  width: 280px;
-  height: 280px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: 1px solid #e1e1e1;
-  border-top-width: 6px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 5px;
-  line-height: 30px; }
-  .product-type-blocks:hover {
-    border-color: #d99054; }
-
-.product-type-blocks p {
-  font-family: Merriweather;
-  color: #404040;
-  font-size: 1rem;
-  line-height: 2;
-  text-align: center;
-  width: 235px;
-  margin-top: 13px; }
-
-.product-type-blocks .btn {
-  background: #248a83;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-family: Novecento Sans;
-  line-height: 1;
-  padding: .7rem 1rem;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-size: 1rem; }
-  .product-type-blocks .btn:hover {
-    background-color: #19625d; }
-
 .product-type-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -898,6 +764,46 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 50px; }
+  .product-type-wrapper .product-type-blocks {
+    width: 280px;
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #e1e1e1;
+    border-top-width: 6px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 5px;
+    line-height: 30px; }
+    .product-type-wrapper .product-type-blocks:hover {
+      border-color: #d99054; }
+    .product-type-wrapper .product-type-blocks p {
+      font-family: Merriweather;
+      color: #404040;
+      font-size: 1rem;
+      line-height: 2;
+      text-align: center;
+      width: 235px;
+      margin-top: 13px; }
+    .product-type-wrapper .product-type-blocks .btn {
+      background: #248a83;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-family: Novecento Sans;
+      line-height: 1;
+      padding: .7rem 1rem;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-size: 1rem; }
+      .product-type-wrapper .product-type-blocks .btn:hover {
+        background-color: #19625d; }
 
 .product-info-container {
   margin-top: 100px; }
@@ -910,11 +816,13 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Novecento Sans';
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 39px;
   margin-bottom: 3rem;
   letter-spacing: 2px;
   text-transform: uppercase; }
+
+.product-info-container .shop-item {
+  padding: 0; }
 
 .shop-logo {
   width: 65px;
@@ -956,44 +864,40 @@ a {
       -ms-flex: 0 1 32%;
           flex: 0 1 32%;
   position: relative; }
+  .journal-entry .entry-title {
+    font-size: 27px;
+    font-family: 'Novecento Sans';
+    line-height: 1.15; }
+  .journal-entry .entry-meta {
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Merriweather;
+    color: #404040;
+    margin-left: 19px; }
 
 .attachment-large {
   border: 0 solid #e1e1e1;
   border-bottom-width: 6px; }
 
-.journal-entry .entry-title {
-  font-size: 27px;
-  font-family: 'Novecento Sans';
-  line-height: 1.15; }
-
-.journal-entry .entry-meta {
-  margin-top: 20px;
-  font-size: 13px;
-  font-family: Merriweather;
-  color: #404040;
-  margin-left: 19px; }
-
 .home-journal {
   margin-top: 100px; }
-
-.home-journal h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Novecento Sans';
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 3rem;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
-
-.home-journal h2 {
-  margin-top: 0;
-  margin-left: 19px;
-  font-weight: 550; }
+  .home-journal h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'Novecento Sans';
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .home-journal h2 {
+    margin-top: 0;
+    margin-left: 19px;
+    font-weight: 550; }
 
 .read-button {
   padding: 10px 20px;
@@ -1026,137 +930,100 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-.site-footer {
-  background: url("../../images/dark-wood.png");
+.adventure-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 0px 60px;
-  height: 350px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white; }
-
-.site-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   width: 1120px; }
 
-.contact-info {
-  width: 25%;
-  font-family: 'Novecento Sans';
-  margin-top: 25px; }
-
-.contact-info h3 {
-  color: #d99054; }
-
-.contact-info p {
-  font-family: Merriweather; }
-
-.business-hours {
-  width: 25%;
-  font-family: 'Novecento Sans';
-  margin-top: 25px; }
-
-.business-hours h3 {
-  color: #d99054; }
-
-.business-hours p {
-  font-family: Merriweather; }
-
-.footer-image {
-  width: 50%;
-  text-align: right; }
-  .footer-image img {
-    width: 55%;
-    margin-top: 40px; }
-
-.copyright-container {
-  width: 1120px;
-  text-align: center;
-  font-family: 'Novecento Sans'; }
-
-.products-wrapper {
+.adventure-box-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  text-align: center;
-  width: 1120px;
-  margin: 10px 25px;
-  border-top: 1px grey dashed;
-  padding-top: 60px;
-  margin-left: auto;
-  margin-right: auto; }
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 560px;
+  height: 540px;
+  margin-left: 20px; }
 
-.shop-item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
-  padding: 10px 10px;
-  width: 260px;
-  height: 310px;
-  border: 1px grey solid;
-  margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+.adventure-1 {
+  background: url("../../images/adventure-photos/canoe-girl.jpg");
+  width: 540px;
+  height: 540px; }
 
-.page-header .page-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.adventure-2 {
+  background: url("../../images/adventure-photos/beach-bonfire.jpg");
+  width: 560px;
+  height: 250px;
+  margin-bottom: 20px; }
 
-.page-template-about .entry-content {
-  margin: 50px auto;
-  width: 800px; }
-  .page-template-about .entry-content p {
-    font-family: Merriweather;
-    font-size: 16px;
-    line-height: 1.85; }
+.adventure-3 {
+  background: url("../../images/adventure-photos/mountain-hikers.jpg");
+  width: 270px;
+  height: 270px; }
 
-.page-template-about h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  letter-spacing: 2px;
-  text-align: center;
+.adventure-4 {
+  background: url("../../images/adventure-photos/night-sky.jpg");
+  width: 270px;
+  height: 270px;
+  margin-left: 20px; }
+
+.post .entry-header {
   position: relative;
-  top: 180px; }
+  margin-top: 80px;
+  width: 750px;
+  color: white; }
+  .post .entry-header .attachment-large {
+    border: none;
+    width: 100%; }
+  .post .entry-header h2 {
+    font-family: 'Novecento Sans';
+    letter-spacing: 1.75px;
+    font-weight: bold; }
+  .post .entry-header .entry-title {
+    position: absolute;
+    top: 0px;
+    line-height: 1.15;
+    background-color: #248a83;
+    padding: 10px 20px;
+    max-width: 600px;
+    font-size: 38px; }
+    .post .entry-header .entry-title a {
+      color: white; }
+      .post .entry-header .entry-title a:hover {
+        color: #f0e4d1; }
+  .post .entry-header .entry-meta {
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #248a83;
+    font-family: 'Novecento Sans';
+    text-transform: uppercase; }
 
-.page-template-about h2 {
+.post .entry-content p {
+  width: 750px;
+  font-family: Merriweather;
+  color: #404040;
+  line-height: 1.75; }
+
+a.journal-button {
   color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-bottom: 20px;
   font-family: 'Novecento Sans';
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2em;
-  letter-spacing: 2px;
-  position: relative;
-  top: 50px; }
+  text-transform: uppercase; }
+  a.journal-button:hover {
+    background-color: #248a83;
+    border-color: #248a83;
+    color: white; }
 
 .gm-style {
   width: 830px; }
@@ -1180,6 +1047,30 @@ a {
     font-size: 16px;
     line-height: 1.85; }
 
+.widget-title a {
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+#text-2 .widget-title {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+#business_hours_widget-2 .widget-title {
+  margin-top: 65px;
+  margin-bottom: 20px; }
+
+#archives-2 .widget-title {
+  margin-top: 65px;
+  margin-bottom: 20px; }
+
+.textwidget .svg-inline--fa {
+  margin-right: 10px; }
+
+.textwidget .fa-envelope {
+  margin-right: 10px; }
+
 .widget-area {
   padding-left: 50px;
   padding-top: 75px;
@@ -1193,9 +1084,8 @@ a {
     font-family: Merriweather;
     line-height: 1.25; }
     .widget-area .widget p .day-of-week {
-      font-size: 17.5px;
-      font-family: Merriweather;
-      font-weight: bold; }
+      font-size: 15px;
+      font-family: Merriweather; }
   .widget-area ul {
     font-family: Merriweather;
     margin-left: 0;
@@ -1229,3 +1119,270 @@ input, textarea {
     background-color: #19625d;
     -webkit-box-shadow: none;
             box-shadow: none; }
+
+.form-label {
+  font-size: 12pt; }
+
+.form-asterisk {
+  color: orange;
+  font-size: 8pt; }
+
+.shop-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.shop-header-title {
+  text-transform: uppercase; }
+
+.product-type-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  text-transform: uppercase; }
+
+.products-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  width: 1120px;
+  margin: 10px 25px;
+  border-top: 1px dashed #e1e1e1;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.shop-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+  padding: 10px 10px;
+  width: 260px;
+  height: 310px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 30px; }
+  .shop-item img {
+    height: 260px;
+    max-width: 100%;
+    right: 22px;
+    border-bottom: 5px solid #e1e1e1; }
+  .shop-item .entry-title {
+    margin: 0;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: 16px;
+    color: #404040;
+    font-size: 16px;
+    color: #404040; }
+
+.page-template-about .entry-content {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 800px; }
+  .page-template-about .entry-content p {
+    font-family: Merriweather;
+    font-size: 16px;
+    line-height: 1.85; }
+
+.page-template-about h1 {
+  font-family: "Novecento Sans";
+  font-size: 50px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  top: 280px; }
+
+.page-template-about h2 {
+  color: black;
+  font-family: 'Novecento Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 2px;
+  position: relative;
+  top: 50px; }
+
+.site-footer {
+  background: url("../../images/dark-wood.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px 60px;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white; }
+
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 1120px; }
+
+.contact-info {
+  width: 25%;
+  font-family: 'Novecento Sans';
+  letter-spacing: 1.5px;
+  margin-top: 25px; }
+
+.contact-info h3 {
+  color: #d99054;
+  letter-spacing: 1.5px; }
+
+.contact-info p {
+  font-family: Merriweather;
+  letter-spacing: 1.5px; }
+
+.business-hours {
+  width: 25%;
+  font-family: 'Novecento Sans';
+  margin-top: 25px;
+  letter-spacing: 1.5px; }
+
+.business-hours h3 {
+  color: #d99054;
+  letter-spacing: 1.5px; }
+
+.business-hours p {
+  font-family: Merriweather; }
+
+.footer-image {
+  width: 50%;
+  text-align: right; }
+  .footer-image img {
+    width: 55%;
+    margin-top: 40px; }
+
+.copyright-container {
+  width: 1120px;
+  text-align: center;
+  font-family: 'Novecento Sans'; }
+
+.site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh; }
+
+.site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-top: 55px; }
+
+.content-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 75%;
+          flex: 1 1 75%; }
+
+.header-logo {
+  height: 35px; }
+
+.widget-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%; }
+
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: rgba(250, 250, 250, 0.9);
+  z-index: 1;
+  position: fixed; }
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem; }
+
+.menu-item a {
+  margin: 0 10px; }
+
+#menu-item-134 {
+  margin-right: 40rem; }
+
+#menu-item-153 {
+  margin-right: 1rem; }
+
+.front-header {
+  background: url(../../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-template-about .about-hero-image {
+  width: 100vh;
+  height: 100vh; }
+
+.search-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0; }
