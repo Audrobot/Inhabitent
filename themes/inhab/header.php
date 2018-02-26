@@ -25,7 +25,7 @@
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-branding -->
-				<a>
+				<a href="<?php echo site_url(); ?>/">
 					<img 
 						class="header-logo"
 						src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-tent.svg" ?> 
