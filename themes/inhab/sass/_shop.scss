@@ -5,13 +5,18 @@
 }
 
 .shop-header-title {
+  font-family: 'Novecento Sans';
+  font-size: 40px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .product-type-links {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  width: 350px;
+  font-family: 'Novecento Sans';
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -43,21 +48,29 @@
     border-bottom: 5px solid #e1e1e1;
   }
   
-  .entry-title {
-    margin: 0;
-    text-align: left;
-    font-family: Merriweather;
-    font-size: 16px;
-    color: #404040;
-    font-size: 16px;
-
-    color: #404040;
-  }
+  // .entry-title {
+  //   margin: 0;
+  //   text-align: left;
+  //   font-family: Merriweather;
+  //   font-size: 16px;
+  //   color: #404040;
+  // }
 }
 
 .shop-item-text {
   display: flex;
   justify-content: space-between;
+  font-family: Merriweather;
+  font-size: 16px;
+  color: #404040;
+
+//   h2 {
+//     .shop-item-title {
+//       font-family: Merriweather;
+//       font-size: 16px;
+//       color: #404040;
+//     }
+//   }  
 }
 
 .shop-item-ellipses {
