@@ -129,6 +129,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
+      <a class="adventure-button" href="<?php the_permalink(); ?>">MORE ADVENTURES</a>
     </div> 
   </section>  
 

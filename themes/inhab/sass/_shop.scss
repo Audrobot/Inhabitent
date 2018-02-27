@@ -1,14 +1,21 @@
-.shop-header {
+.shop-header, .taxonomy-page-header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.shop-header-title {
+.shop-header-title, .taxonomy-page-title {
   font-family: 'Novecento Sans';
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.taxonomy-description {
+  font-family: Merriweather;
+  font-size: 16px;
+  color: #404040;
+  letter-spacing: .75px;
 }
 
 .product-type-links {
@@ -20,7 +27,7 @@
   text-transform: uppercase;
 }
 
-.products-wrapper {
+.products-wrapper, .taxonomy-product-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -37,14 +44,12 @@
 .shop-item {
   padding: 0;
   width: 260px;
-  height: 310px;
+  height: 280px;
   border: 1px solid #e1e1e1;
   margin-bottom: 30px;
 
   img {
-    height: 260px;
-    max-width: 100%;
-    right: 22px;
+    height: 81%;
     border-bottom: 5px solid #e1e1e1;
   }
   
@@ -63,21 +68,91 @@
   font-family: Merriweather;
   font-size: 16px;
   color: #404040;
+  margin-top: 5px;
 
-//   h2 {
-//     .shop-item-title {
-//       font-family: Merriweather;
-//       font-size: 16px;
-//       color: #404040;
-//     }
-//   }  
-}
+  .shop-item-title {
+      font-family: Merriweather;
+      font-weight: 400;
+      font-size: 16px;
+      color: #404040;
+      margin: 2px 0 0 10px;
+      text-align: center;
+      position: relative;
+      top: -1px;
+    } 
+  }  
+
+.shop-item-price {
+  margin-right: 10px;
+} 
 
 .shop-item-ellipses {
-  position: relative;
-  top: -2px;
   flex: 0.95;
   border-bottom: dotted 2px #404040;
   height: 20px;
   align-self: top;
 };
+
+
+
+
+
+//**  INDIVIDUAL PRODUCT ITEM  **//
+
+.hentry {
+  display: flex;
+  width: 1120px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  
+  .single-item-img {
+    height: 423px;
+    width: 530px;
+    margin-right: 12px;
+    margin-top: 35px;
+  }
+
+  .single-product-info {
+    display: flex;
+    flex-direction: column;
+    height: 403px;
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 28px;
+
+    h1 {
+      font-family: 'Novecento Sans';
+      text-transform: uppercase;
+      font-size: 37px;
+      letter-spacing: 1px;
+      color: #d99054;
+      margin-top: 0;
+      margin-bottom: 5px;;
+    }
+
+    .entry-price {
+      font-family: 'Novecento Sans';
+      font-size: 28px;
+      color: #404040;
+    }
+  }
+
+  p {
+    font-family: Merriweather;
+    font-size: 16px;
+    color: #404040;
+    line-height: 28px;
+    letter-spacing: .55px;
+    margin-top: 0;
+  }
+
+  .entry-meta {
+
+  }
+  
+}
+
+
+
+

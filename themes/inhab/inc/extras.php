@@ -72,7 +72,10 @@ function inhab_archives($query){
 		is_post_type_archive('product')
 	)
 	{
-		$query->set('posts_per_page', 16);	
+		$query->set('posts_per_page', 16);
+		$query->set('order', 'ASC');
+		$query->set('orderby', 'title');
+
 	}
 }
 
@@ -85,6 +88,13 @@ add_filter( 'get_the_archive_title', function ( $title ) {
 	if( is_post_type_archive( 'product' ) ) {
 			$title = 'Shop Stuff';
 	}
+
+	if (is_tax())
+	{
+		$terms = wp_get_post_terms (get_the_ID(), 'product_type', array("fields" => "all") );
+		$title = $terms[0] ->name;
+	}
+
 	return $title;
 });
 
