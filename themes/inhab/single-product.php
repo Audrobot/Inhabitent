@@ -21,12 +21,11 @@ get_header(); ?>
 				<?php endif; ?>
 			</div>
 
-			<div class="single-product-info"
+			<div class="single-product-info">
 				
-				<h1 class="entry-title">
-				<?php the_title( '<h1>', '</h1>' ); ?> 
+				<div class="entry-block">
+					<?php the_title( '<h1>', '</h1>' ); ?> 	
 
-			
 
 				<div class="entry-price">
 				  <?php echo CFS()->get( 'price' ); ?>

@@ -91,15 +91,17 @@
   border-bottom: dotted 2px #404040;
   height: 20px;
   align-self: top;
-};
+}
 
 
 
 
 
-//**  INDIVIDUAL PRODUCT ITEM  **//
+// **  INDIVIDUAL PRODUCT ITEM  **//
 
-.hentry {
+
+
+.single-product .type-product {
   display: flex;
   width: 1120px;
   margin: auto;
@@ -107,10 +109,10 @@
   margin-bottom: 100px;
   
   .single-item-img {
-    height: 423px;
-    width: 530px;
+    height: 550px;
+    width: 500px;
     margin-right: 12px;
-    margin-top: 35px;
+    margin-top: 32px;
   }
 
   .single-product-info {
@@ -118,13 +120,13 @@
     flex-direction: column;
     height: 403px;
     width: 520px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 28px;
 
     h1 {
       font-family: 'Novecento Sans';
       text-transform: uppercase;
-      font-size: 37px;
+      font-size: 38px;
       letter-spacing: 1px;
       color: #d99054;
       margin-top: 0;
@@ -142,14 +144,11 @@
     font-family: Merriweather;
     font-size: 16px;
     color: #404040;
-    line-height: 28px;
+    line-height: 25px;
     letter-spacing: .55px;
     margin-top: 0;
   }
 
-  .entry-meta {
-
-  }
   
 }
 

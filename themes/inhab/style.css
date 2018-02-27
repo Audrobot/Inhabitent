@@ -972,17 +972,20 @@ a {
   margin-left: 20px; }
 
 .adventure-1 {
-  background: url("../../images/adventure-photos/canoe-girl.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/adventure-photos/canoe-girl.jpg") center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/adventure-photos/canoe-girl.jpg") center;
   background-size: cover;
   width: 540px;
   height: 540px; }
   .adventure-1 p {
     font-family: Merriweather;
     color: white;
-    font-size: 50px; }
+    font-size: 50px;
+    margin-left: 14px; }
 
 .adventure-2 {
-  background: url("../../images/adventure-photos/beach-bonfire.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/adventure-photos/beach-bonfire.jpg") center -72px no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/adventure-photos/beach-bonfire.jpg") center -72px no-repeat;
   background-size: cover;
   width: 560px;
   height: 250px;
@@ -990,20 +993,24 @@ a {
   .adventure-2 p {
     font-family: Merriweather;
     color: white;
-    font-size: 38px; }
+    font-size: 38px;
+    margin-left: 16px; }
 
 .adventure-3 {
-  background: url("../../images/adventure-photos/mountain-hikers.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/adventure-photos/mountain-hikers.jpg") center 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/adventure-photos/mountain-hikers.jpg") center 0px;
   background-size: cover;
   width: 270px;
   height: 270px; }
   .adventure-3 p {
     font-family: Merriweather;
     color: white;
-    font-size: 30px; }
+    font-size: 30px;
+    margin-left: 16px; }
 
 .adventure-4 {
-  background: url("../../images/adventure-photos/night-sky.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/adventure-photos/night-sky.jpg") center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/adventure-photos/night-sky.jpg") center;
   background-size: cover;
   width: 270px;
   height: 270px;
@@ -1011,7 +1018,8 @@ a {
   .adventure-4 p {
     font-family: Merriweather;
     color: white;
-    font-size: 30px; }
+    font-size: 30px;
+    margin-left: 16px; }
 
 .adventure-button {
   background: #248a83;
@@ -1270,7 +1278,7 @@ input, textarea {
   -ms-flex-item-align: top;
       align-self: top; }
 
-.hentry {
+.single-product .type-product {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1278,12 +1286,12 @@ input, textarea {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 100px; }
-  .hentry .single-item-img {
-    height: 423px;
-    width: 530px;
+  .single-product .type-product .single-item-img {
+    height: 550px;
+    width: 500px;
     margin-right: 12px;
-    margin-top: 35px; }
-  .hentry .single-product-info {
+    margin-top: 32px; }
+  .single-product .type-product .single-product-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1293,25 +1301,25 @@ input, textarea {
             flex-direction: column;
     height: 403px;
     width: 520px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 28px; }
-    .hentry .single-product-info h1 {
+    .single-product .type-product .single-product-info h1 {
       font-family: 'Novecento Sans';
       text-transform: uppercase;
-      font-size: 37px;
+      font-size: 38px;
       letter-spacing: 1px;
       color: #d99054;
       margin-top: 0;
       margin-bottom: 5px; }
-    .hentry .single-product-info .entry-price {
+    .single-product .type-product .single-product-info .entry-price {
       font-family: 'Novecento Sans';
       font-size: 28px;
       color: #404040; }
-  .hentry p {
+  .single-product .type-product p {
     font-family: Merriweather;
     font-size: 16px;
     color: #404040;
-    line-height: 28px;
+    line-height: 25px;
     letter-spacing: .55px;
     margin-top: 0; }
 
