@@ -3,7 +3,7 @@
 .product-type-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   justify-content:center;
   align-items:center;
   margin: 0 50px;
@@ -26,7 +26,7 @@
     p {
       font-family: Merriweather;
       color: #404040;
-      font-size: 1rem;
+      font-size: 16px;
       line-height: 2;
       text-align: center;
       width: 235px;
@@ -40,10 +40,9 @@
       cursor: pointer;
       font-family: Novecento Sans;
       line-height: 1;
-      padding: .7rem 1rem;
+      padding: 10px 20px;
       text-transform: uppercase;
       font-size: 14px;
-      font-size: 1rem;
 
       &:hover {
         background-color: darken(#248A83, 10%);
@@ -54,22 +53,20 @@
 
 .product-info-container {
   margin-top: 100px;
-}
-
-.product-info-container {
-  h2 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Novecento Sans';
-    font-size: 39px;
-    margin-bottom: 3rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
+    h2 {
+      display: flex;
+      justify-content: center;
+      font-family: 'Novecento Sans';
+      font-weight: 400;
+      font-size: 39px;
+      margin-bottom: 3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
   
-  .shop-item {
-    padding: 0;
-  }
+    .shop-item {
+     padding: 0;
+    }
 }
 
 .shop-logo {
@@ -282,7 +279,7 @@
 .adventure-button {
   background: #248a83;
   border: none;
-  color: #fff;
+  color: white;
   cursor: pointer;
   font-family: 'Novecento Sans';
   height: 40px;
@@ -295,6 +292,6 @@
   
 
   &:hover {
-    background-color: darken(#248A83, 10%);
+    background-color: darken(#248A83, 8%);
   }
 }

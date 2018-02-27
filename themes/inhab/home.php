@@ -15,7 +15,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-				<a class="read-button" href="<?php the_permalink(); ?>">READ MORE  --></a>
+				<a class="more-button" href="<?php the_permalink(); ?>">READ MORE  --></a>
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>

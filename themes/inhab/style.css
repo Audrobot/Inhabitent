@@ -755,8 +755,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -786,7 +787,7 @@ a {
     .product-type-wrapper .product-type-blocks p {
       font-family: Merriweather;
       color: #404040;
-      font-size: 1rem;
+      font-size: 16px;
       line-height: 2;
       text-align: center;
       width: 235px;
@@ -798,31 +799,29 @@ a {
       cursor: pointer;
       font-family: Novecento Sans;
       line-height: 1;
-      padding: .7rem 1rem;
+      padding: 10px 20px;
       text-transform: uppercase;
-      font-size: 14px;
-      font-size: 1rem; }
+      font-size: 14px; }
       .product-type-wrapper .product-type-blocks .btn:hover {
         background-color: #19625d; }
 
 .product-info-container {
   margin-top: 100px; }
-
-.product-info-container h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Novecento Sans';
-  font-size: 39px;
-  margin-bottom: 3rem;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
-
-.product-info-container .shop-item {
-  padding: 0; }
+  .product-info-container h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'Novecento Sans';
+    font-weight: 400;
+    font-size: 39px;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .product-info-container .shop-item {
+    padding: 0; }
 
 .shop-logo {
   width: 65px;
@@ -1024,7 +1023,7 @@ a {
 .adventure-button {
   background: #248a83;
   border: none;
-  color: #fff;
+  color: white;
   cursor: pointer;
   font-family: 'Novecento Sans';
   height: 40px;
@@ -1035,7 +1034,7 @@ a {
   position: relative;
   top: -65px; }
   .adventure-button:hover {
-    background-color: #19625d; }
+    background-color: #1c6a64; }
 
 .post {
   padding-left: 120px; }
@@ -1048,18 +1047,18 @@ a {
     .post .entry-header .attachment-large {
       border: none;
       width: 100%; }
-    .post .entry-header h2 {
+    .post .entry-header .entry-title {
       font-family: 'Novecento Sans';
       letter-spacing: 1.75px;
-      font-weight: bold; }
-    .post .entry-header .entry-title {
+      font-weight: bold;
+      text-transform: uppercase;
       position: absolute;
       top: 0px;
       line-height: 1.15;
       background-color: #248a83;
-      padding: 10px 20px;
+      padding: 15px 20px;
       max-width: 600px;
-      font-size: 38px; }
+      font-size: 34px; }
       .post .entry-header .entry-title a {
         color: white; }
         .post .entry-header .entry-title a:hover {
@@ -1078,20 +1077,84 @@ a {
     color: #404040;
     line-height: 1.75; }
 
-a.read-button {
+a.more-button {
   color: black;
   padding: 10px 20px;
   border: 1px solid black;
   font-family: 'Novecento Sans';
   text-transform: uppercase;
-  margin-left: 120px; }
-  a.read-button:hover {
+  margin-left: 80px; }
+  a.more-button:hover {
     background-color: #248a83;
     border-color: #248a83;
     color: white; }
 
 .journal-main {
   padding-bottom: 80px; }
+
+.format-standard .entry-content {
+  color: red; }
+
+.single-journal .social-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid #404040;
+  font-family: 'Novecento Sans';
+  text-transform: uppercase; }
+  .single-journal .social-button:hover {
+    background-color: #248a83;
+    border-color: #248a83;
+    color: white; }
+  .single-journal .social-button .fa-w-9, .single-journal .social-button .fa-w-16 {
+    margin-right: 7px; }
+
+.single-journal p {
+  color: #404040;
+  font-family: 'Novecento Sans';
+  font-size: 18px; }
+
+.single-journal .journal-buttons {
+  padding-left: 80px; }
+
+.cat-links {
+  font-family: 'Novecento Sans'; }
+
+.tags-links {
+  font-family: 'Novecento Sans'; }
+
+.comment-reply-title {
+  font-family: 'Novecento Sans';
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 60px; }
+
+.comment-respond {
+  margin-left: 80px; }
+  .comment-respond p {
+    color: #404040;
+    font-family: 'Novecento Sans';
+    text-transform: uppercase;
+    font-size: 18px; }
+  .comment-respond .submit {
+    background: #248a83;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans;
+    line-height: 1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px; }
+    .comment-respond .submit:hover {
+      background-color: #19625d;
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+
+.type-post {
+  margin-left: -40px; }
 
 .gm-style {
   width: 830px; }
@@ -1115,12 +1178,6 @@ a.read-button {
     font-size: 16px;
     line-height: 1.85; }
 
-.widget-title a {
-  font-family: Merriweather;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1px; }
-
 #text-2 .widget-title {
   margin-top: 10px;
   margin-bottom: 0; }
@@ -1138,6 +1195,9 @@ a.read-button {
 
 .textwidget .fa-envelope {
   margin-right: 10px; }
+
+.textwidget .address-meta {
+  line-height: 2.25; }
 
 .widget-area {
   width: 30px;
@@ -1302,7 +1362,7 @@ input, textarea {
   width: 1120px;
   margin: auto;
   margin-top: 15px;
-  margin-bottom: 100px; }
+  margin-bottom: 200px; }
   .single-product .type-product .single-item-img {
     height: 360px;
     width: 600px;
@@ -1538,13 +1598,17 @@ input, textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.full-logo {
+  position: relative;
+  top: -60px; }
 
 .page-template-about .about-hero-image {
   width: 100vh;

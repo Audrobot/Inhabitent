@@ -13,20 +13,18 @@
         width: 100%;
       }
 
-      h2 {
+      .entry-title {
         font-family: 'Novecento Sans';
         letter-spacing: 1.75px;
         font-weight: bold;
-      } 
-
-      .entry-title {
+        text-transform: uppercase;
         position: absolute;
         top: 0px;
         line-height: 1.15;
         background-color: #248a83;
-        padding: 10px 20px;
+        padding: 15px 20px;
         max-width: 600px;
-        font-size: 38px;
+        font-size: 34px;
         
         a {
           color: white;
@@ -57,16 +55,14 @@
     } 
     }
   
-
-a.read-button {
+a.more-button {
   color: black;
   padding: 10px 20px;
   border: 1px solid black;
   font-family: 'Novecento Sans';
   text-transform: uppercase;
-  margin-left: 120px;
+  margin-left: 80px;
   
-
   &:hover {
     background-color: #248a83;;
     border-color: #248a83;
@@ -77,3 +73,105 @@ a.read-button {
 .journal-main {
   padding-bottom: 80px;
 }
+
+
+
+//**  SINGLE JOURNAL ENTRY  **//
+
+.format-standard {
+  .entry-content {
+  color: red;
+  }
+}
+
+.single-journal {
+  
+  .social-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid #404040;
+  font-family: 'Novecento Sans';
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #248a83;;
+    border-color: #248a83;
+    color: white;
+  }
+
+  .fa-w-9, .fa-w-16{
+    margin-right: 7px;
+  }
+  }
+  
+  p {
+    color: #404040;
+    font-family: 'Novecento Sans';
+    font-size: 18px;
+  }
+  
+  .journal-buttons {
+    padding-left: 80px;
+  }
+}
+
+
+//**  COMMENTS FORM **//
+
+.cat-links {
+  font-family: 'Novecento Sans';
+}
+
+.tags-links {
+  font-family: 'Novecento Sans';
+}
+
+.comment-reply-title {
+  font-family: 'Novecento Sans';
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.comment-respond {
+  margin-left: 80px;
+
+  p {
+    color: #404040;
+    font-family: 'Novecento Sans';
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .submit {
+    background: #248a83;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans;
+    line-height: 1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    &:hover {
+      background-color: darken(#248A83, 10%);
+      box-shadow: none;
+    }
+  }
+}
+
+.type-post {
+  margin-left: -40px;
+}
+
+
+
+
+
+
+
+
+
