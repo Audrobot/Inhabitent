@@ -10,18 +10,18 @@
  This opportunity was integral in the further development of my project planning and SCSS architecture. During the process and consequent revelations, I found it essential to take steps back--reaccess progress and ensuing issues--to move forward once again.
   
 
- #Built With
+ ## Built With
   
- * [VScode](http://www.vscode.com) - Text Editor
+ [VScode](http://www.vscode.com) - Text Editor
  
- # Author
+ ## Author
  
- * Audra Kornicki - [Audrobot](https://github.com/Audrobot)
+ Audra Kornicki - [Audrobot](https://github.com/Audrobot)
  
- # License
+ ## License
  
  This project is unlicensed
  
- # Acknowledgments
+ ## Acknowledgments
  
- * Many thanks to Jim Bennett, Rose Cass, & RED Academy for all the guidance and support.
+ Many thanks to Jim Bennett, Rose Cass, & RED Academy for all the guidance and support.
