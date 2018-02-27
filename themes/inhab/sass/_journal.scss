@@ -58,18 +58,22 @@
     }
   
 
-// a.journal-button {
-//   color: black;
-//   padding: 10px 20px;
-//   border: 1px solid black;
-//   margin-bottom: 20px;
-//   font-family: 'Novecento Sans';
-//   text-transform: uppercase;
-
-//   &:hover {
-//     background-color: #248a83;;
-//     border-color: #248a83;
-//     color: white;
-//   }
-// }
+a.read-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-family: 'Novecento Sans';
+  text-transform: uppercase;
+  margin-left: 120px;
   
+
+  &:hover {
+    background-color: #248a83;;
+    border-color: #248a83;
+    color: white;
+  }
+}
+  
+.journal-main {
+  padding-bottom: 80px;
+}

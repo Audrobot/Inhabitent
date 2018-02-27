@@ -39,6 +39,9 @@ get_header(); ?>
 							'after'  => '</div>',
 						) );
 					?>
+					<a class="social-button" href="<?php the_permalink(); ?>"><i class="fab fa-facebook-f"></i>LIKE</a>
+					<a class="social-button" href="<?php the_permalink(); ?>"><i class="fab fa-twitter"></i>TWEET</a>
+					<a class="social-button" href="<?php the_permalink(); ?>"><i class="fab fa-pinterest"></i>PIN</a>
 				</div>
 			</div>
 		</div>

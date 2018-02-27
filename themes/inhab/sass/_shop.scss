@@ -9,6 +9,7 @@
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 45px;
 }
 
 .taxonomy-description {
@@ -52,14 +53,6 @@
     height: 81%;
     border-bottom: 5px solid #e1e1e1;
   }
-  
-  // .entry-title {
-  //   margin: 0;
-  //   text-align: left;
-  //   font-family: Merriweather;
-  //   font-size: 16px;
-  //   color: #404040;
-  // }
 }
 
 .shop-item-text {
@@ -96,10 +89,7 @@
 
 
 
-
 // **  INDIVIDUAL PRODUCT ITEM  **//
-
-
 
 .single-product .type-product {
   display: flex;
@@ -109,16 +99,16 @@
   margin-bottom: 100px;
   
   .single-item-img {
-    height: 550px;
-    width: 500px;
+    height: 360px;
+    width: 600px;
     margin-right: 12px;
-    margin-top: 32px;
+    margin-top: 35px;
   }
 
   .single-product-info {
     display: flex;
     flex-direction: column;
-    height: 403px;
+    height: 300px;
     width: 520px;
     margin-left: 30px;
     margin-top: 28px;
@@ -130,7 +120,7 @@
       letter-spacing: 1px;
       color: #d99054;
       margin-top: 0;
-      margin-bottom: 5px;;
+      margin-bottom: 0;
     }
 
     .entry-price {
@@ -140,17 +130,37 @@
     }
   }
 
+
   p {
     font-family: Merriweather;
-    font-size: 16px;
+    font-size: 15px;
     color: #404040;
     line-height: 25px;
     letter-spacing: .55px;
     margin-top: 0;
   }
 
-  
+  .social-button {
+    color: black;
+    padding: 10px 20px;
+    margin-left: 0;
+    border: 1px solid #404040;;
+    font-family: 'Novecento Sans';
+    text-transform: uppercase;
+    
+    &:hover {
+      background-color: #248a83;;
+      border-color: #248a83;
+      color: white;
+    }
+
+    .fa-w-9, .fa-w-16{
+      margin-right: 7px;
+    }
+  }
 }
+
+
 
 
 

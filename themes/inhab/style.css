@@ -1078,6 +1078,21 @@ a {
     color: #404040;
     line-height: 1.75; }
 
+a.read-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-family: 'Novecento Sans';
+  text-transform: uppercase;
+  margin-left: 120px; }
+  a.read-button:hover {
+    background-color: #248a83;
+    border-color: #248a83;
+    color: white; }
+
+.journal-main {
+  padding-bottom: 80px; }
+
 .gm-style {
   width: 830px; }
 
@@ -1196,7 +1211,8 @@ input, textarea {
   font-family: 'Novecento Sans';
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-top: 45px; }
 
 .taxonomy-description {
   font-family: Merriweather;
@@ -1288,10 +1304,10 @@ input, textarea {
   margin-top: 15px;
   margin-bottom: 100px; }
   .single-product .type-product .single-item-img {
-    height: 550px;
-    width: 500px;
+    height: 360px;
+    width: 600px;
     margin-right: 12px;
-    margin-top: 32px; }
+    margin-top: 35px; }
   .single-product .type-product .single-product-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1300,7 +1316,7 @@ input, textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 403px;
+    height: 300px;
     width: 520px;
     margin-left: 30px;
     margin-top: 28px; }
@@ -1311,18 +1327,31 @@ input, textarea {
       letter-spacing: 1px;
       color: #d99054;
       margin-top: 0;
-      margin-bottom: 5px; }
+      margin-bottom: 0; }
     .single-product .type-product .single-product-info .entry-price {
       font-family: 'Novecento Sans';
       font-size: 28px;
       color: #404040; }
   .single-product .type-product p {
     font-family: Merriweather;
-    font-size: 16px;
+    font-size: 15px;
     color: #404040;
     line-height: 25px;
     letter-spacing: .55px;
     margin-top: 0; }
+  .single-product .type-product .social-button {
+    color: black;
+    padding: 10px 20px;
+    margin-left: 0;
+    border: 1px solid #404040;
+    font-family: 'Novecento Sans';
+    text-transform: uppercase; }
+    .single-product .type-product .social-button:hover {
+      background-color: #248a83;
+      border-color: #248a83;
+      color: white; }
+    .single-product .type-product .social-button .fa-w-9, .single-product .type-product .social-button .fa-w-16 {
+      margin-right: 7px; }
 
 #post-2 .entry-header {
   height: 800px;
