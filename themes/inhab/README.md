@@ -1,21 +1,48 @@
-# RED Starter
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+ ![ScreenShot](/images/inhab_screenshot1.png) 
 
-## Installation
+ # Inhabitent Camping Supply Co. Website
+  
+ Utilizing WordPress, PHP, SCSS, and HTML, I have created a custom WordPress theme for the Inhabitent Camping Supply Co. website. 
+ 
+ The site contains blog posts, product descriptions, a custom homepage, an about page, and a find us page.
 
-### 1. Download me (don't clone me!)
+![ScreenShot](/images/inhab_screenshot2.png) 
 
-Then add me to your `wp-content` directory.
+## Dependencies
 
-### 2. Rename the `redstarter-master` directory
+Run `npm install` **inside theme directory** to install the node modules for Gulp, etc.
+ 
 
-Make sure that the theme directory name is project appropriate!
+ ## Take aways
+  
+ This opportunity was integral in the further development of my project planning and SCSS architecture. During the process and consequent revelations, I found it essential to take steps back--reaccess progress and ensuing issues--to move forward once again.
+  
 
-### 3. Install the dev dependencies
+ ## Built With
+  
+ [VScode](http://www.vscode.com) - Text Editor
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+ ### ...and
 
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+* PHP
+* Wordpress
+* Html 5
+* CSS
+* SCSS
+* JavaScript
+* jQuery
+* Gulp
+* Eslint
+ 
+ ## Author
+ 
+ Audra Kornicki - [Audrobot](https://github.com/Audrobot)
+ 
+ ## License
+ 
+ This project is unlicensed
+ 
+ ## Acknowledgments
+ 
+ Many thanks to Jim Bennett, Rose Cass, & RED Academy for all the guidance and support.
