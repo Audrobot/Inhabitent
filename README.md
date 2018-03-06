@@ -1,8 +1,17 @@
- # Project 4 - Inhabitent Camping Supply Co. Website
+
+ ![ScreenShot](images/inhab_screenshot1.png) 
+
+ # Inhabitent Camping Supply Co. Website
   
  Utilizing WordPress, PHP, SCSS, and HTML, I have created a custom WordPress theme for the Inhabitent Camping Supply Co. website. 
  
  The site contains blog posts, product descriptions, a custom homepage, an about page, and a find us page.
+
+![ScreenShot](images/inhab_screenshot3.png) 
+
+## Dependencies
+
+Run `npm install` **inside theme directory** to install the node modules for Gulp, etc.
  
 
  ## Take aways
@@ -13,6 +22,18 @@
  ## Built With
   
  [VScode](http://www.vscode.com) - Text Editor
+
+ ### ...and
+
+* PHP
+* Wordpress
+* Html 5
+* CSS
+* SCSS
+* JavaScript
+* jQuery
+* Gulp
+* Eslint
  
  ## Author
  
