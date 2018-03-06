@@ -1,5 +1,5 @@
 
- ![ScreenShot](/inhab/images/inhab_screenshot1.png) 
+ ![ScreenShot](images/inhab_screenshot1.png) 
 
  # Inhabitent Camping Supply Co. Website
   
