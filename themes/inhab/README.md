@@ -7,7 +7,7 @@
  
  The site contains blog posts, product descriptions, a custom homepage, an about page, and a find us page.
 
-![ScreenShot](images/inhab_screenshot2.png) 
+![ScreenShot](images/inhab_screenshot3.png) 
 
 ## Dependencies
 
