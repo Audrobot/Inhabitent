@@ -13,11 +13,9 @@
     return false;
   }
 
-
   $('.main-navigation .search-field').on('blur', function(){
     searchInput.classList.toggle('hide');
   });
-
 
   $(document).keypress(function( event ) {
     if ( event.which == 13 ) {
@@ -26,9 +24,4 @@
     }
   });
   
-  // create an event for the enter key to submit form e.g.
-  //  $('.search-form').submit();
-
-  
-
 })(jQuery);
